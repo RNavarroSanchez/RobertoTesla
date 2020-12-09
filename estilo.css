@@ -1,0 +1,335 @@
+/* PROPIEDADES COMUNES  */	
+@import url('https://fonts.googleapis.com/css2?family=Miriam+Libre&display=swap');
+* {
+    max-width: 1400px;
+    box-sizing: border-box;
+    text-align: left;
+   
+}
+a:hover
+{
+    color: white;
+}
+
+.youtube
+{
+    display: none;
+}
+.contenedor
+{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+  
+
+body 
+{
+    margin: 0;
+    background-color: rgb(241, 237, 237);
+    
+}
+footer .contenedor
+{
+    background-color: #1A5B6D;
+    color: #94CDD6;
+    text-align: center;
+    
+}
+header
+{
+    
+    color: #94CDD6;
+    text-align: center;
+}
+nav{
+    background-color: #1A5B6D;
+    color: #94CDD6;
+  
+}
+
+
+a
+{
+    list-style: none;
+    text-decoration:none;
+    padding-left: 5px;
+}
+h1,h2,h3,a
+{
+    color: #94CDD6;
+    text-align: center;
+}
+
+
+.primera
+{
+    width: 100%;
+    margin: 0;
+}
+#logo
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 0px;
+    top: 15px;
+   
+}
+.logoprin
+{
+    width: 100px;
+}
+.anchototal
+{
+    width: 100%;
+}
+input[type=submit] 
+{
+    background-color: #1A5B6D;
+    color: #94CDD6;
+    padding: 5px;
+}
+
+.abajo
+{
+    width: 20px;
+}
+svg
+{
+    width: 20px;
+    height: 20px;
+
+}
+
+p,form{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.primera img
+    {
+        width: 100%;
+    }
+/* .  TAMAÑOS PEQUEÑOS . */
+@media screen and (max-width:600px)
+ {
+    .derecha
+    {
+        width: 70%;
+        position: relative;
+        justify-content:space-around;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    
+    .izquierda
+    {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+  
+    figure img{
+        margin: 0px;
+        width: 100%;
+    }
+    footer .derecha
+    {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+    
+}
+
+/* .  TAMAÑOS MEDIANOS . */
+@media screen and (min-width: 600px) and (max-width: 1000px)
+{
+    .derecha
+{
+    width: 70%;
+    position: relative;
+    justify-content:space-around;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.izquierda
+{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+    body
+    {
+            font-family: 'Miriam Libre', sans-serif;
+        
+               
+    }
+    
+    header
+    {
+        position: absolute;
+        top: 300px;
+        left: 40%;
+    }
+    .L-tercio
+    {
+        display: flex;
+        flex-direction: row;
+    
+    }
+    
+    .M-mitad
+    {
+        width: 50%;
+    }
+   .contenedor img
+   {
+       width: 100%;
+   }
+  .L-mitad img
+   {
+       width: 20px;
+   }
+   h2{
+       font-size: 3rem;
+   }
+   footer .derecha
+    {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }   
+}
+/* .  TAMAÑOS GRANDES . */
+@media screen and (min-width: 1000px) 
+{
+    body
+    {
+            font-family: 'Miriam Libre', sans-serif;
+    }
+
+    header
+    {
+        position: absolute;
+        top: 300px;
+        left: 40%;
+    }
+    .foto
+    {
+        display:none;
+    }
+
+    .youtube
+    {
+        display: block;
+        width: 100%;
+    }
+    h2
+    {
+        font-size: 3rem;
+        
+        
+    }
+        figcaption
+        {
+            display: none;
+        }
+       nav .derecha
+        {
+            width: 60%;
+            position: relative;
+            justify-content: flex-end;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-left: 100px;
+           
+        }
+   nav .derecha a 
+   {
+        padding-left: 30px;
+        margin-top: 20px
+    };
+        
+       nav .izquierda
+        {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        }
+
+        nav .contenedor{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: center;
+            padding-top:10px;
+        };
+        footer{
+            display: inline-block;
+        }
+        footer .contenedor
+        {
+            margin-top: 100px;
+        }
+        footer .izquierda
+        {
+            position: relative;
+           display: flex;
+           flex-direction: row;
+           justify-content: start;
+           bottom: 5px;
+
+        }
+        footer .derecha
+        {
+            margin-right: 10px;
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            top: 20px;
+        }
+        footer .derecha a 
+        {
+            padding-left: 20px;
+        };
+    figure
+        {
+            margin:0px;
+        }
+        #Exhibition,#Visit,#Contact
+        {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+
+        .L-tercio
+        {
+            width: 33%;
+            flex-direction: row;
+            justify-content: center;
+        }
+        img {
+            width: 100%;
+        };
+        #contacto>.L-mitad
+        {
+            align-self: flex-end;
+        }
+        #formulario
+        {
+            width: 100%;
+        }
+    }       
